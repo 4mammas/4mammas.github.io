@@ -1698,7 +1698,7 @@ a {
 		bottom: 0;
 	}
 	.mob_header_contacts ul {
-		padding-left: 50px;
+		/* padding-left: 50px; */
 	}
 	.mob_header_contacts ul li:nth-child(1) {
 		padding-top: 20px;
@@ -2139,14 +2139,17 @@ a {
 		display: inline-block;
 	}
 	.foot_mob .mob_header_contacts ul li {
-		display: inline-block;
 		position: relative;
+		text-align: center;
+		width: 50%;
+		float: left;
 	}
 	.foot_mob .mob_header_contacts ul li:first-child {
 		top: -10px;
+		left: -8px;
 	}
 	.foot_mob .mob_header_contacts ul li:last-child {
-		right: -15px;
+		left: -3px;
 		top: 2px;
 	}
 	.foot_mob>a {
